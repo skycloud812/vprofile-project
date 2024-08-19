@@ -1,3 +1,4 @@
+
 FROM openjdk:11 AS build_image
 RUN apt update && apt install maven -y
 LABEL "project"="vprofile"
